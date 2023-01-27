@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: 0.5s all ease-in-out;
+
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 30px 90px;
+    align-items: center;
+    font-size: 30px;
+
+
+}
+
+.logo2 a{ 
+    display: flex;
+    text-decoration: none;
+}
+
+nav p{
+    font-size: 70px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 15px;
+    color: #faa705;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.logo {
+    height: 120px;
+}
+
+
+nav li {
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+   transition: 0.2s;
+}
+
+.csgotitle {
+    margin-left: 20px;
+
+    text-decoration-style: none;
+    color: #17f6ed;
+
+}
+
+.bialinda {
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+.login {
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    border: solid 2px;
+    border-left-color: #17f6ed;
+    border-bottom-color: #faa705;
+    border-right-color: #faa705;
+    border-top-color: #17f6ed;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.900);
+    box-shadow: 0px 0px 7px 8px rgb(22, 22, 22);
+}
+
+input {
+    display: block;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(36, 36, 36);
+    font-size: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+    border-radius: 20px;
+    border: none;
+    color: #faa705;
+}
+
+
+.content {
+
+    padding-top: 70px;
+
+}
+
+
+
+label {
+    padding-right: 150px;
+    color: #faa705;
+    font-size: 35px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.fundo-video {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.fundo-video .video {
+    height: 115vh;
+}
+
+.fundo-video::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.aaa {
+    box-shadow: #17f6ed 0px 2px;
+    outline: 0;
+    background-image: url(../assets/login.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 15px 10px;
+    padding: 12px 50px 14px;
+
+}
+
+#input-senha {
+    background-image: url(../assets/lock.svg);
+}
+
+.aaa::placeholder {
+
+    text-align: left;
+
+}
+
+.position-login {
+    margin-bottom: 40px;
+
+}
+
+.texto-cadastro {
+    color: #faa705;
+    font-size: 10px;
+
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.texto-cadastro a {
+    font-size: 20px;
+
+    color: #03b3ad;
+
+}
+
+nav li:hover {
+    background-color: #003b397a;
+    
+}
+
+#btt-entrar {
+    margin-top: 60px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    box-shadow: #17f6ed 0px 2px;
+    border-radius: 20px;
+    background-color: rgb(43, 43, 43);
+    color: rgb(112, 111, 111);
+    border: none;
+    text-transform: uppercase;
+}
+
+#btt-entrar:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+}
